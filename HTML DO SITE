@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resiban - Reutilização da Bananeira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resiban</h1>
+        <nav>
+            <ul>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#ebooks">E-books</a></li>
+                <li><a href="#receitas">Receitas</a></li>
+                <li><a href="#videos">Vídeos</a></li>
+                <li><a href="#pagamento">Pagamento Seguro</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cursos">
+            <h2>Cursos</h2>
+            <p>Aqui estão os cursos disponíveis sobre reaproveitamento da bananeira e práticas sustentáveis.</p>
+            <ul>
+                <li>
+                    <strong>Reaproveitando a Bananeira: Da Raiz à Flor</strong>
+                    <p>Aprenda como utilizar todas as partes da bananeira de forma sustentável. Este curso abrange desde o cultivo até a preparação de pratos utilizando o coração da bananeira.</p>
+                    <a href="pdf/curso_bananeira.pdf" target="_blank">Baixar PDF do curso</a>
+                </li>
+                <li>
+                    <strong>Sustentabilidade na Prática</strong>
+                    <p>Explore práticas agrícolas sustentáveis que ajudam a preservar o meio ambiente enquanto melhoram a produtividade.</p>
+                    <a href="pdf/curso_sustentabilidade.pdf" target="_blank">Baixar PDF do curso</a>
+                </li>
+                <li>
+                    <strong>Gestão Financeira para Produtores</strong>
+                    <p>Aprenda a gerenciar suas finanças e a maximizar os lucros de sua produção.</p>
+                    <a href="pdf/curso_gestao_financeira.pdf" target="_blank">Baixar PDF do curso</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="ebooks">
+            <h2>E-books</h2>
+            <p>Explore nossos e-books para aprender mais sobre o tema.</p>
+            <ul>
+                <li>
+                    <strong>Guia Completo de Reutilização da Bananeira</strong>
+                    <p>Este e-book fornece uma visão abrangente de como utilizar todas as partes da bananeira.</p>
+                    <a href="pdf/ebook_reutilizacao_bananeira.pdf" target="_blank">Baixar E-book</a>
+                </li>
+                <li>
+                    <strong>Compostagem e Uso de Resíduos</strong>
+                    <p>Aprenda a transformar resíduos em compostagem eficaz para sua plantação.</p>
+                    <a href="pdf/ebook_compostagem.pdf" target="_blank">Baixar E-book</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="receitas">
+            <h2>Receitas</h2>
+            <p>Aprenda a usar todas as partes da bananeira, incluindo o coração.</p>
+            <ul>
+                <li><strong>Receita de Salada com Coração de Bananeira</strong></li>
+                <li><strong>Sopa de Coração de Bananeira</strong></li>
+                <li><strong>Bolo de Bananeira</strong></li>
+            </ul>
+        </section>
+        
+        <section id="videos">
+            <h2>Vídeos</h2>
+            <p>Assista nossos vídeos sobre práticas sustentáveis e reaproveitamento.</p>
+            <div class="video">
+                <h3>Vídeo: Reaproveitando a Bananeira</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <h3>Vídeo: Práticas Sustentáveis na Agricultura</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="pagamento">
+            <h2>Pagamento Seguro</h2>
+            <p>Oferecemos diversas opções de pagamento, todas com segurança garantida.</p>
+            <ul>
+                <li>Cartão de Crédito</li>
+                <li>PayPal</li>
+                <li>Boleto Bancário</li>
+                <li>Transferência Bancária</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato para mais informações.</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Resiban. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
