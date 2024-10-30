@@ -1,0 +1,20 @@
+// Este script adiciona uma funcionalidade simples para o envio do formulário
+
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Impede o envio real do formulário
+
+        // Aqui você pode adicionar a lógica para processar o formulário (ex: enviar para um servidor)
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+        const mensagem = document.getElementById('mensagem').value;
+
+        // Simula o envio e exibe uma mensagem de alerta
+        alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`);
+        
+        // Limpa os campos do formulário
+        form.reset();
+    });
+});
